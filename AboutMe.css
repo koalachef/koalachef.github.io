@@ -1,0 +1,88 @@
+#AboutMe,
+.AboutMe-Experience-Container,
+.AboutMe-Text-Container {
+  display: flex;
+}
+
+#AboutMe {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.AboutMe-Text-Container {
+  flex-direction: column;
+  max-width: 810px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-top: 64px;
+}
+
+.AboutMe-Text-Container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.AboutMe-Text-Container p {
+  min-height: 72px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  padding: 20px;
+}
+
+.AboutMe-Experience-Container {
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.AboutMe-Experience-Container div {
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.AboutMe-Experience-Container h1 {
+  min-height: 96px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  color: #ff6464;
+}
+
+.AboutMe-Experience-Container p {
+  min-height: 23px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .AboutMe-Experience-Container {
+    gap: 16px;
+  }
+}

@@ -1,0 +1,101 @@
+#CoreDesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.CoreDesign-Header {
+  max-width: 810px;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 64px;
+}
+
+.CoreDesign-Header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.CoreDesign-Header p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loading-bar {
+  width: 100%;
+  height: 5px;
+  position: relative;
+  background-color: #e1e1e1;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #1f1f1f;
+  position: absolute;
+}
+
+.percentage {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.skill-name {
+  width: 100%;
+}
+
+.loading-bar-container {
+  display: flex;
+  align-items: center;
+}
+
+.CoreDesign-Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.CoreDesign-Skills-Leftbox,
+.CoreDesign-Skills-Rightbox {
+  width: 100%;
+  max-width: 421px;
+  margin: 10px;
+}
+
+.CoreDesign-Skills-Container {
+  width: 100%;
+  max-width: 1250px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .CoreDesign-Skills {
+    flex-direction: row;
+  }
+
+  .CoreDesign-Skills-Leftbox,
+  .CoreDesign-Skills-Rightbox {
+    flex: 1;
+    max-width: none;
+    margin: 10px;
+  }
+}

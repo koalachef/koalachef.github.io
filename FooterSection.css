@@ -1,0 +1,14 @@
+#footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 0;
+  font-family: sans-serif;
+  background-color: #ff3b49;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
